@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Roboto+Mono&display=swap');
+
+body {
+ height: 1263px;
+ width: 892.5px;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+hr {
+   width: 95%;
+   height: 3px;
+   color: #38A3A5;
+   border: 0 none;
+   background-color:#30475E;
+}
+
+.oswald {
+  font-family: 'Oswald', sans-serif;
+  font-size: 40px;
+}
+
+.rob {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 17px;
+  line-height: 1.6;
+}
+
+.normalweight {
+  font-weight: normal;
+}
+
+#headingPadding {
+  padding-left: 0;
+  background-image: linear-gradient(0deg,#80ED99 50%,transparent 20%)
+}
+
+#box {
+  border: 1px solid #22577A;
+  padding: 10px;
+  box-shadow: 5px 10px #38A3A5;
+}
+
+a:link {
+  color: #38A3A5;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #22577A;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #22577A;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #22577A;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.page {
+	width: 21cm;
+	min-height: 29.7cm;
+
+	padding-left: 4cm;
+	padding-top: 4cm;
+	padding-right: 4cm;
+	padding-bottom: 4cm;
+}
+@page {
+
+	size: A4 portrait;
+
+	margin-left: 4cm;
+	margin-top: 4cm;
+	margin-right: 4cm;
+	margin-bottom: 4cm;
+}
+
+/* MADE FOR PAGE 2 */
+
+caption {
+  font-family: 'Oswald', sans-serif;
+  text-align: left;
+}
+
+th,td {
+  text-align: left;
+  vertical-align: top;
+}
+
+#tableCaption {
+  font-family: 'Oswald', sans-serif;
+  font-size: 32px;
+  color: #22577A;
+}
+
+.sidebar {
+  height: 100%;
+  width: 150px;
+  position: relative;
+  left: 0cm;
+  top: 0cm;
+  padding-top: 40px;
+  background-color: #80ED99;
+  min-height: 24.1cm;
+  }
+  
+.sidebar div {
+  padding: 8px;
+  display: block;
+}
+
+.line {
+  display: inline-block;
+  width: 220px;
+  height: 1px;
+  background-color: #987;
+  vertical-align: middle;
+}
+
+ul {
+  list-style: none;
+}
+
+li::before {
+  content: "● ";
+  color: #22577A;
+}
+
+.nobullet::before {
+  content: none;
+}
+
+/* MADE FOR PAGE 3 */
+
+#rectangle {
+  width: 150px;
+  height: 30px;
+  background: #80ED99;
+}
+
+#triangle-topleft {
+  width: 0;
+  height: 0;
+  border-top: 150px solid #80ED99;
+  border-right: 150px solid transparent;
+}
