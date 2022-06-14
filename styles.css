@@ -28,8 +28,17 @@ hr {
 
 .figureCaption {
   font-family: 'Oswald', sans-serif;
+  color: #22577A;
   font-size: 25px;
   line-height: 1.6;
+}
+
+.figureContent {
+  font-family: 'Roboto Mono', monospace;
+  color: black;
+  font-size: 14px;
+  line-height: 1.6;
+  padding-left: 8px;
 }
 
 .normalweight {
@@ -125,7 +134,8 @@ th,td {
   }
   
 .sidebar div {
-  padding: 8px;
+  padding-top: 5px;
+  padding-left: 7px;
   display: block;
 }
 
