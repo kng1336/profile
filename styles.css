@@ -166,3 +166,7 @@ li::before {
   border-top: 150px solid #80ED99;
   border-right: 150px solid transparent;
 }
+
+#lastMinute {
+  text-align: center;
+ }
